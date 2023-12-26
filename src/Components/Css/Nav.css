@@ -1,0 +1,23 @@
+.btn{
+    margin-left: auto;
+    height: 35px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* box-shadow: 2px 2px 2px grey; */
+}
+
+a{
+    font-size: larger;
+    margin-top: 11px;
+}
+
+.title{
+    margin-bottom: 9px;
+    font-size: 25px;
+}
+
+.d1{
+    background-color: aqua;
+}

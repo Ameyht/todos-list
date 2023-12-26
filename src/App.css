@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,10 +22,25 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+} */
+
+
+.r1{
+  display: flex;
+  justify-content: space-between;
+  
 }
+ .row{
+  height: 100vh;
+  /* margin-top: 20px; */
+  margin-bottom: 100px;
+ }
 
 .App-link {
   color: #61dafb;
+}
+.nav{
+  align-items: center;
 }
 
 @keyframes App-logo-spin {
