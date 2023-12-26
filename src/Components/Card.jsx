@@ -11,7 +11,7 @@ export default function Card({ title, image, description, details }) {
   return (
     <div>
       <div className="card">
-        <img src={image} class="card-img-top" alt="images" />
+        <img src={image} className="card-img-top" alt="images" />
 
         <div className="card-body">
           <h5 className="card-title">

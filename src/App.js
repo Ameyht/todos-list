@@ -43,6 +43,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
+
           <Route path="/forts" element={<FortD />} />
           <Route path="/signup" element={<Signup />} />
           {/* <Route path="/aboutUs" element={<Footer />} /> */}

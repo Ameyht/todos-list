@@ -1,7 +1,14 @@
 import React, { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
+// import { useNavigate } from "react-router-dom";
 
 export default function SignIn() {
+  // const navigate = useNavigate();
+
+  // const handleButtonClick = () => {
+  //   navigate("/authenticated");
+  // };
+
   const registered = () => {
     toast.success("Sign In Successfull", {
       position: toast.POSITION.TOP_RIGHT,
@@ -82,7 +89,11 @@ export default function SignIn() {
             Forgot password?
           </a>
         </div>
-        <button type="submit" className="btn btn-primary btn-block mb-1">
+        <button
+          type="submit"
+          className="btn btn-primary btn-block mb-1"
+          // onClick={handleButtonClick}
+        >
           Sign in
         </button>
 

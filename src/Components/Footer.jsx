@@ -5,14 +5,14 @@ export default function Footer({ setScrollBehavior }) {
   return (
     <div>
       <footer>
-        <div class="footer-container">
-          <div class="footer-section">
+        <div className="footer-container">
+          <div className="footer-section">
             <h3>Contact Us</h3>
             <p>Email: amey311.ht@gmail.com</p>
             <p>Phone: 9356477948</p>
           </div>
 
-          <div class="footer-section">
+          <div className="footer-section">
             <h3>Explore</h3>
             <ul>
               <li>
@@ -27,7 +27,7 @@ export default function Footer({ setScrollBehavior }) {
             </ul>
           </div>
 
-          <div class="footer-section">
+          <div className="footer-section">
             <h3>Connect</h3>
             <ul>
               <li>
@@ -43,7 +43,7 @@ export default function Footer({ setScrollBehavior }) {
           </div>
         </div>
 
-        <div class="copyright">
+        <div className="copyright">
           <p>&copy; 2023 Travelio. All rights reserved.</p>
         </div>
       </footer>

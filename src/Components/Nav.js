@@ -12,7 +12,7 @@ export default function Nav({ scrollToFooter }) {
             width="30 "
             height="27"
             fill="currentColor"
-            class="bi bi-backpack"
+            className="bi bi-backpack"
             viewBox="0 0 16 16"
           >
             <path d="M4.04 7.43a4 4 0 0 1 7.92 0 .5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14M4 9.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm1 .5v3h6v-3h-1v.5a.5.5 0 0 1-1 0V10z" />
@@ -65,7 +65,7 @@ export default function Nav({ scrollToFooter }) {
                 </a>
               </li>
             </ul>
-            <a class="btn btn-success" href="/Signup">
+            <a className="btn btn-success" href="/Signup">
               <b>Register</b>
             </a>
 
